@@ -14,8 +14,10 @@ System.out.println("Uzkrita skaitlis: "+skaitlis);
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 int reizes;
+do {
 System.out.println("cik reizes"); reizes = scan.nextInt();
 mestKaulinu(reizes);
+}while(reizes<1);
 System.out.println("Beigas");
 scan.close();
 
