@@ -6,7 +6,7 @@
 - [x] Izveidot gitHub kontu
 - [x] Izveidot GitHub krātuvi
 - [x] Lokālā projekta hithub izveidošana
-- [ ] Papildināt GitHub saturu iegūt lokālai lietošanai
+- [x] Papildināt GitHub saturu iegūt lokālai lietošanai
 - [ ] Projektam pieslēdzas vel viens programētājs un izmēģina kopdarbošanos
-- [ ] Projektā ieviests jauns zars
+- [x] Projektā ieviests jauns zars
 - [ ] Sapludināt zari, novērsts merge konfliktu
