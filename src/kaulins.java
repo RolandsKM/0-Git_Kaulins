@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class kaulins {
 static void mestKaulinu(int reizes){
 	int skaitlis;
-	int lielakais=0;
+	int lielakais;
 Random rand = new Random();
 for(int i=1; i<=reizes; i++){
 skaitlis= rand.nextInt(6)+1;
@@ -12,6 +12,7 @@ System.out.println("Uzkrita skaitlis: "+skaitlis);
 
 if(lielakais<skaitlis) {
 	lielakais=skaitlis;
+	
 }
 System.out.println("Lielâkais skaitlis no metieniem bija: "+lielakais);
 	}
@@ -20,6 +21,7 @@ System.out.println("Lielâkais skaitlis no metieniem bija: "+lielakais);
 		
 		Scanner scan = new Scanner(System.in);
 int reizes;
+
 do {
 System.out.println("cik reizes"); reizes = scan.nextInt();
 mestKaulinu(reizes);
